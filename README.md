@@ -19,7 +19,7 @@ This project is a simple web application that generates random paragraphs or sen
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/random-paragraph-generator.git
+   git clone https://github.com/RBZAHEER/Random-Paragraph-Generator.git
    ```
 
 2. Navigate to the project directory:
