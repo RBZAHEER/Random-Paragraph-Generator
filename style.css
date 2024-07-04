@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 1000px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(151, 151, 151);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.leftdiv {
+  display: flex;
+  gap: 10px;
+}
+
+.rightdiv {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="number"],
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+}
+
+.gen-content {
+  width: 100%;
+  max-height: 500px;
+  overflow-y: scroll;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.gen-content::-webkit-scrollbar {
+  width: 10px;
+}
+.gen-content::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.gen-content::-webkit-scrollbar-thumb {
+  background-color: rgb(207, 112, 112);
+  border-radius: 5px;
+}
