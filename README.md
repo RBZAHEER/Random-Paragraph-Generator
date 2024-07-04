@@ -1,7 +1,5 @@
-Sure, here's a `README.md` file for your Random Paragraph Generator project that you can use on GitHub:
 
-```markdown
-# Random Paragraph Generator
+## Random Paragraph Generator
 
 This project is a simple web application that generates random paragraphs or sentences using the Bacon Ipsum API. It allows users to specify the number of paragraphs or sentences they want to generate and provides the option to copy the generated text to the clipboard.
 
